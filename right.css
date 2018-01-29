@@ -1,0 +1,95 @@
+/*.rt img{
+	width: 25px;
+	height: 25px;
+	float: left;
+	margin:5px 10px 0px 10px;
+}*/
+#r01{
+	display: none;
+}
+.ru span{
+	width: 20px;
+	height: 0px;
+	display: block;
+	margin: 0px 350px 0px 350px;
+	float: left;
+}
+#r02{
+	display: none;
+}
+.ru span{
+	width: 60px;
+	height: 0px;
+	display: block;
+	margin: 16px 350px 0px 350px;
+	float: left;
+	font-size: 16px;
+}
+.rt ul{
+	width:720px; 
+	height:40px;
+	list-style: none;
+	float: left;
+	padding: 0px;
+	margin:0px;
+}
+.tr{
+	border: none;
+}
+.rt li{
+	margin:5px 10px 0px 10px;
+}
+.rt1 {
+	width:25px; 
+	height:25px;
+	float: left;
+	background-image: url(./img/sm.png);
+	background-size:25px 25px;
+}
+.rt2 {
+	width:25px; 
+	height:25px;
+	float: left;
+	background-image: url(./img/cut.png);
+	background-size:25px 25px;
+}
+.rt3 {
+	width:25px; 
+	height:25px;
+	float: left;
+	background-image: url(./img/file.png);
+	background-size:25px 25px;
+}
+.rd{
+	border: none;
+}
+.rd textarea{
+	width:715px;
+	height:87px;
+	background-color: #f6f6f6;
+	border:none;
+	float: left;
+	margin:-1px 0px -1px 0px;
+
+}
+.rd textarea:focus{
+	outline: none;
+	border: none;
+}
+.ra span{
+	color: #8c8c8c;
+	font: normal normal 14px 仿宋;
+	float: right;
+	margin:14px 5px 0px 0px;
+}
+.ra input{
+	width: 90px;
+	height: 30px;
+	float: right;
+	margin-right: 20px;
+	background-color: white;
+	border: solid 1px #f6f6f6;
+	color: black;
+}
+
+

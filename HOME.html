@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>微信网页版</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="./HOME.css">
+	<link rel="stylesheet" type="text/css" href="./left.css">
+	<link rel="stylesheet" type="text/css" href="./right.css">
+	<link rel="stylesheet" type="text/css" href="./ld.css">
+	<script type="text/javascript" src="./HOME.js"></script>
+</head>
+<body>
+	<div>
+		<div class="a1"><!--分成左右两个部分-->
+			<div class="left"><!--左边-->
+				<div class="ldl"><!--登陆者信息-->
+					<div class="touxiang"><!--头像-->
+						<img src="./img/touxiang.png">
+					</div>
+					<div class="nichen"><!--登录昵称-->
+						<span>小可爱</span>
+					</div>
+					<div class="san"><!--三横-->
+					</div>
+				</div>
+
+				<div class="ls"><!--搜索框-->
+					<div class="lsl"></div>
+					<span>
+						<input type="text" name="search" value="">
+					</span>
+				</div>
+				<div class="lq"><!--tab切换-->
+					<ul>
+						<li class="lq1">
+						<!--点击出现对话框-->
+							<a href="#" onclick="talk()" id="lq1"></a>
+						</li>
+						<li class="lq2" >
+							<a href="#"  onclick="news()"></a>
+						</li>
+						<li class="lq3">
+							<a href="#"  onclick="pp()"></a>
+						</li>
+					</ul>
+				</div>
+				<div class="ld"><!--对话框-->
+					<div class="talk" >
+						<ul id="dh">
+							<li class="a3" onclick="lt01()">
+								<div class="lt">
+									<a href="#">
+										<img src="./img/touxiang01.png">
+									<span id="mami">
+										妈咪
+									</span>
+									</a>								
+								</div>
+							</li>
+							<li class="a3" onclick="lt02()">
+								<div class="lt">
+									<a href="#">
+										<img src="./img/touxiang02.png">
+										<span id="babi">
+											爸比
+										</span>
+									</a>
+								</div>
+							</li>
+						</ul>
+					</div>
+					<div  class="parper">
+						<ul id="xw">
+							<li class="a3"></li>
+						</ul>
+					</div>
+					<div class="pp">
+						<ul id="pp">
+							<li class="a3"></li>
+							<li class="a3"></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="right">
+				<div id="r00"><!--右边-->
+					<div class="ru"></div><!--顶部对话者昵称-->
+					<div class="rm"></div><!--对话内容展示区-->
+					<div class="rt" id="gl"><!--输入按钮区-->
+						<ul>
+							<li class="rt1"></li>
+							<li class="rt2"></li>
+							<li class="rt3"></li>
+						</ul>
+					</div>
+					<div class="rd"><!--输入区-->
+						<textarea  onfocus="wc()" onblur="wa()"  id="gl01"></textarea>
+					</div>
+					<div class="ra" id="gl02">
+						<input type="submit" name="submit" value="发送">
+						<span>按下Ctrl+Enter换行</span>
+					</div><!--发送按钮-->
+				</div>
+				<div id="r01"><!--右边-->
+					<div class="ru">
+						<span>妈咪</span>
+					</div><!--顶部对话者昵称-->
+					<div class="rm"></div><!--对话内容展示区-->
+					<div class="rt" id="gl03"><!--输入按钮区-->
+						<ul>
+							<li class="rt1"></li>
+							<li class="rt2"></li>
+							<li class="rt3"></li>
+						</ul>
+					</div>
+					<div class="rd" ><!--输入区-->
+						<textarea  onfocus="wc01()" onblur="wa01()"  id="gl04"></textarea>
+					</div>
+					<div class="ra" id="gl05">
+						<input type="submit" name="submit" value="发送">
+						<span>按下Ctrl+Enter换行</span>
+					</div><!--发送按钮-->
+				</div>
+				<div id="r02"><!--右边-->
+					<div class="ru">
+						<span>爸比</span>
+					</div><!--顶部对话者昵称-->
+					<div class="rm"></div><!--对话内容展示区-->
+					<div class="rt" id="gl06"><!--输入按钮区-->
+						<ul>
+							<li class="rt1"></li>
+							<li class="rt2"></li>
+							<li class="rt3"></li>
+						</ul>
+					</div>
+					<div class="rd"><!--输入区-->
+						<textarea onfocus="wc02()" onblur="wa02()"  id="gl07"></textarea>
+					</div>
+					<div class="ra" id="gl08">
+						<input type="submit" name="submit" value="发送">
+						<span>按下Ctrl+Enter换行</span>
+					</div><!--发送按钮-->
+				</div>
+			</div>
+			<div style="clear:both;background-color: red;"></div>
+		</div>
+	</div>
+</body>
+</html>

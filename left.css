@@ -1,0 +1,121 @@
+.touxiang img{
+	width:40px;
+	height:40px;
+	float: left;
+	margin-top: 18px;
+	margin-left: 18px;
+}
+.nichen span{
+	font: normal normal 20px 仿宋;
+	color:white;
+	float: left;
+	margin-top: 18px;
+	margin-left: 8px;
+}
+.san{
+	width:30px;
+	height:30px;
+	float: left;
+	margin-top: 18px;
+	margin-left:116px;
+	background-image: url(./img/san.png);
+	background-size:30px 30px;
+}
+.lsl{
+	width:27px;
+	height:28px;
+	background-color: #26282e;
+	background-image: url(./img/sousuo.png) ;
+	background-repeat: no-repeat;
+	background-size:24px 24px;
+	float: left;
+}
+.ls  span input{
+	width:240px; 
+	height:20px;
+	background-color: #26282e;
+	border: solid #26282e;
+	margin-left:0px;
+	color: white;
+}
+.ls span input:focus{
+	outline: none;
+}
+.lq ul{
+	width:280px; 
+	height:46px;
+	list-style: none;
+	float: left;
+	padding: 0px;
+	margin:0px;
+}
+.lq li{
+	margin:5px 32px 0px 33px;
+}
+.lq1 {
+	width:28px; 
+	height:28px;
+	float: left;
+	background-image: url(./img/talk.png);
+	background-size:28px 28px;
+}
+.lq1 a{
+	width:28px; 
+	height:28px;
+	display: block;
+}
+.lq2 {
+	width:28px; 
+	height:28px;
+	float: left;
+	background-image: url(./img/paper.png);
+	background-size:28px 28px;
+}
+.lq2 a{
+	width:28px; 
+	height:28px;
+	display: block;
+}
+.lq3 {
+	width:28px; 
+	height:28px;
+	float: left;
+	background-image: url(./img/friend.png);
+	background-size:28px 28px;
+}
+.lq3 a{
+	width:28px; 
+	height:28px;
+	display: block;
+}
+.talk ul{
+	width: 280px;
+	height: 64px;
+	background-color:#2e3238;
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+	display: block;
+}
+.a3 li{
+	width: 280px;
+	height: 64px;
+}
+.parper ul{
+	width: 280px;
+	height: 64px;
+	background-color: #2e3238;
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+    display: none;
+}
+.pp ul{
+	width: 280px;
+	height: 64px;
+	background-color: #2e3238;
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+    display: none;
+}

@@ -1,0 +1,23 @@
+.lt{
+	width: 280px;
+	height: 64px;
+	border-top: 0.01px solid #26292e; 
+}
+.lt a{
+	width:280px;
+	height: 0px; 
+	display: block;
+}
+.lt img{
+	width: 36px;
+	height:36px;
+	margin: 10px 5px 10px 20px;
+	float: left;
+}
+.lt span{
+	color: white;
+	font-size: 15px;
+	margin: 16px 5px 10px 20px;
+	display: block;
+	float: left;
+}
